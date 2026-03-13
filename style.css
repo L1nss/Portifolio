@@ -7,7 +7,7 @@
 /* ESTILOS GERAIS DA PAGINA*/
 body {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    background-color: #f4f7f6;
+    background-color: #ffffff;
     color: #333333;
     line-height: 1.6;;
 }
@@ -15,7 +15,7 @@ body {
 /*Cabecalho HEADER) */
 
 header{
-    background-color: #004a8d;
+    background-color: #4a08b4;
     color:#ffffff;
     padding: 30px 20px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
@@ -25,6 +25,8 @@ header h1 {
     margin-bottom: 15px;
     font-size: 2.5rem;
     letter-spacing: 2px;
+    text-align: center;
+    border-radius: 15px;
 }
 
 /*NAVEGACAO*/
@@ -41,43 +43,33 @@ nav a {
     text-decoration: none;
     font-weight:  bold;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: all 0.3 ease-in-out;
 }
 
 nav a:hover{
-    background-color: #ffcc00;
-    color:#004a8d;
-    transform: translateY(-10px);
+    background-color: rgb(63, 5, 188);
+    color:#a7a6a6;
+    transform: translateY(-4px);
 }
 
 /*CONTEUDO PRINCIPAL*/
 main {
     max-width: 900px;
-    margin: 40px auto;
+    margin-left: 80px;
+    margin-top: 40px;
     padding: 0 20px;
 }
 
 /*ARTIGOS e SECOES*/
 article, section {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 10px;
+    background-color: #5469d255;
+    padding: 100px;
+    border-radius: 15px;
     margin-bottom: 30px;
 }
 
-article h2, section h3{
-    color: #004a8d;
-    margin-bottom: 15px;
-}
 
-article img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #e0e0e0;
-}
 
 /*LISTAS E OUTRAS NOTICIAS*/
 section ul{
@@ -95,7 +87,7 @@ section ul li:last-child{
 
 /*RODAPE*/
 footer{
-    background-color: #222222;
+    background-color: #4a08b4;
     color: #cccccc;
     text-align: center;
     padding:  30px 20px;
@@ -109,7 +101,7 @@ footer hr{
 }
 
 footer a{
-    color: #ffcc00;
+    color: #8666ba;
     text-decoration: none;
     font-weight: bold;
 }
